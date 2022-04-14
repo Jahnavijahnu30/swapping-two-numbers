@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+  int a=30, b=20;
+  //code to swap a and b
+  a=a+b; //a becomes 50
+  b=a-b; // b becomes 50-20=30
+  a=a-b; // a becomes 20
+  printf("After swapping:a=%d, b=%d", a,b);
